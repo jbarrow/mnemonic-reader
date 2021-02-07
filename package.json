@@ -1,0 +1,15 @@
+{
+  "name": "mnemonic-reader",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "zerorpc": "git+https://github.com/0rpc/zerorpc-node.git"
+  },
+  "devDependencies": {
+    "electron": "^1.7.6",
+    "electron-packager": "^12.1.0",
+    "electron-rebuild": "^2.3.5"
+  }
+}

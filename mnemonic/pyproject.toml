@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mnemonic"
+version = "0.1.0"
+description = ""
+authors = ["Joe Barrow <joseph.d.barrow@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+zerorpc = "^0.6.3"
+pyinstaller = "^4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
